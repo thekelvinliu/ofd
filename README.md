@@ -1,4 +1,4 @@
-Smooth Facial Tracking
-======
+# ofd
+**ofd** = **o**pencv **f**ace **d**etection
 
-Example of smooth facial tracking using OpenCV 3.0
+from [Synaptitude/Smooth-Facial-Tracking](https://github.com/Synaptitude/Smooth-Facial-Tracking)
