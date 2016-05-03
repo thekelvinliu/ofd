@@ -22,7 +22,7 @@ build
 │   └── webcam      // simple webcam live-feed
 └── ...
 ```
-all of the examples expect the first argument to be the path to a [cascade classifier](https://en.wikipedia.org/wiki/Cascading_classifiers).
+the examples expect command-line arguements to be paths to certain [cascade classifiers](https://en.wikipedia.org/wiki/Cascading_classifiers).
 OpenCV ships with a ton of pre-trained classifiers, and a subset related to face classification can be found in the `cascades` directory.
 then, the following would run the basic face detection example:
 ```
