@@ -44,12 +44,12 @@ void detectFaces(Mat frame) {
  */
 int main(int argc, char** argv) {
     if (argc != 2) {
-        cout << "usage: " << argv[0] << " <path/to/haar/cascade.xml>" << endl;
+        cout << "usage: " << argv[0] << " <path/to/face/cascade.xml>" << endl;
         exit(1);
     }
-    String hc_path = String(argv[1]);
+    String fc_path = String(argv[1]);
     // load classifier
-    face_cascade.load(hc_path);
+    face_cascade.load(fc_path);
     // create frame buffer
     Mat frame;
     // open default camera
