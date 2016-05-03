@@ -20,7 +20,7 @@ void detectFaces(Mat frame) {
     // convert frame to grayscale
     Mat frame_gray;
     cvtColor(frame, frame_gray, COLOR_BGR2GRAY);
-    // equalizeHist(frame_gray, frame_gray);
+    equalizeHist(frame_gray, frame_gray);
     // detect faces
     vector<Rect> faces;
     face_cascade.detectMultiScale(frame_gray, faces, 1.1, 3,
